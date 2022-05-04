@@ -1,0 +1,84 @@
+body {
+  background-color: #424097;
+  background-image: url(./assets/img/background-title.png);
+  background-repeat: repeat-x;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  display: flex;
+  width: 1000px;
+  height: 700px;
+  margin: 200px auto;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.glass {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.corridaMaluca {
+  text-transform: uppercase;
+  color: #E53D42;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+}
+
+.choice__text {
+  text-align: center;
+}
+
+.character__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dickVigarista, .penelope, .quadrilhaDaMorte {
+  width: 250px;
+  height: 550px;
+  background-color: #E53D42;
+  border-radius: 20px;
+}
+
+.dick__image, .penelope__image, .quadrilha__image {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 250px;
+  height: 326px;
+}
+
+.dick__text, .penelope__text, .quadrilha__text {
+  font-weight: 600;
+  text-align: center;
+}
+
+.start {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #424097;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.start:hover {
+  background-color: #221ed8ea;
+}
