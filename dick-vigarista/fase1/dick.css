@@ -1,0 +1,33 @@
+body {
+  background-color: #F7E129;
+  font-family: 'Montserrat Alternates';
+  font-weight: 600;
+}
+
+.image__container {
+  display: flex;
+  justify-content: center;
+}
+
+.text__container {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.choice__button {
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: #e6353d;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 16px;
+  transition: all .3s ease-in-out;
+  border: none;
+}
+
+.choice__button:hover {
+  background-color: #b7353c;
+}

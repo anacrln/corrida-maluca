@@ -1,8 +1,9 @@
 body {
   background-color: #424097;
   background-image: url(./assets/img/background-title.png);
-  background-repeat: repeat-x;
+  background-repeat: repeat;
   font-family: 'Montserrat Alternates', sans-serif;
+  max-width: 100%;
 }
 
 a{
@@ -14,10 +15,9 @@ a{
   display: flex;
   width: 1000px;
   height: 700px;
-  margin: 200px auto;
+  margin: 20px auto;
   justify-content: center;
   flex-direction: column;
-
 }
 
 .glass {
@@ -49,7 +49,7 @@ a{
 
 .dickVigarista, .penelope, .quadrilhaDaMorte {
   width: 250px;
-  height: 550px;
+  height: 500px;
   background-color: #E53D42;
   border-radius: 20px;
 }
